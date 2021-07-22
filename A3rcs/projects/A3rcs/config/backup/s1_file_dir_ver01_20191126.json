@@ -1,0 +1,5 @@
+{
+	"user_id_dir" : "repository/user_id/",
+	"post_dir" : "repository/blog_post/",
+	"log_dir" : "module/s1_collect/blog/logs/"
+}

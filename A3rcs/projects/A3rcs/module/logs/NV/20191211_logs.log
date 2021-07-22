@@ -1,0 +1,84 @@
+time : 2019-12-11 16:10:11 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 302
+message : BLOG_CODE=NV, user_id=00cys, error_message=ValueErrorcannot convert float NaN to integer
+Traceback (most recent call last):
+  File "C:/projects/A3rcs/NV_Crawler_Generator.py", line 46, in generate_nv_crawler
+    all_content_info = nv_crawler.gather_all_content(board_url_list, start_date,end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 340, in gather_all_content
+    parsing = find_content_info(b_url, start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 318, in find_content_info
+    content_info = nick_no_present(board_url, board_content_info, 'NO_INFO', start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 272, in nick_no_present
+    is_valid_date = True if util.check_is_valid_date(start_date, end_date, upload_date) else False
+  File "C:\projects\A3rcs\module\s1_collect\comm\util.py", line 178, in check_is_valid_date
+    start_rgx = int(upload_date) - int(start_date)
+ValueError: cannot convert float NaN to integer
+time : 2019-12-11 16:10:11 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 302
+message : BLOG_CODE=NV, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "C:/projects/A3rcs/NV_Crawler_Generator.py", line 93, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-11 16:10:11 [INFO]
+message : BLOG_CODE=NV, Crawling Completed  [ number_of_user_id=957, number_of__all_posts=0, processing_time=0:1:23]
+
+time : 2019-12-11 16:14:10 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 302
+message : BLOG_CODE=NV, user_id=00cys, error_message=ValueErrorday is out of range for month
+Traceback (most recent call last):
+  File "C:/projects/A3rcs/NV_Crawler_Generator.py", line 46, in generate_nv_crawler
+    all_content_info = nv_crawler.gather_all_content(board_url_list, start_date,end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 340, in gather_all_content
+    parsing = find_content_info(b_url, start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 316, in find_content_info
+    content_info = nick_present(board_url, board_content_info, 'IN_INFO', start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_nv\nv_blog_post_crawler.py", line 237, in nick_present
+    date = util.datetime_fmt(crawl_date)
+  File "C:\projects\A3rcs\module\s1_collect\comm\util.py", line 154, in datetime_fmt
+    date_fmt = date_fmt + get_weekday(date_fmt)
+  File "C:\projects\A3rcs\module\s1_collect\comm\util.py", line 167, in get_weekday
+    calcul_date = datetime.date(year, month, day)
+ValueError: day is out of range for month
+time : 2019-12-11 16:14:10 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 302
+message : BLOG_CODE=NV, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "C:/projects/A3rcs/NV_Crawler_Generator.py", line 93, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-11 16:14:10 [INFO]
+message : BLOG_CODE=NV, Crawling Completed  [ number_of_user_id=957, number_of__all_posts=0, processing_time=0:1:19]
+
+time : 2019-12-11 16:35:47 [INFO]
+message : BLOG_CODE=NV, user_id=00cys, number_of_posts=946, processing_time=0:4:46
+
+time : 2019-12-11 16:35:47 [INFO]
+message : BLOG_CODE=NV, Crawling Completed  [ number_of_user_id=957, number_of__all_posts=944, processing_time=0:4:47]
+
+time : 2019-12-11 17:16:32 [INFO]
+message : BLOG_CODE=NV, user_id=00cys, number_of_posts=946, processing_time=0:4:19
+
+time : 2019-12-11 17:16:32 [INFO]
+message : BLOG_CODE=NV, Crawling Completed  [ number_of_user_id=957, number_of__all_posts=944, processing_time=0:4:20]
+

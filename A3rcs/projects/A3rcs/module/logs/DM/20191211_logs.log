@@ -1,0 +1,6 @@
+time : 2019-12-11 17:22:57 [INFO]
+message : BLOG_CODE=DM, user_id=hbj122, number_of_posts=8, processing_time=0:0:2
+
+time : 2019-12-11 17:22:57 [INFO]
+message : BLOG_CODE=DM, Crawling Completed  [ number_of_user_id=5, number_of__all_posts=8, processing_time=0:0:2]
+

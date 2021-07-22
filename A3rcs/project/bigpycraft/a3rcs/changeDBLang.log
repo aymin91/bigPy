@@ -1,0 +1,30 @@
+2019-11-13 15:36:44,409  ERROR Got exception on main handler
+Traceback (most recent call last):
+  File "<ipython-input-32-e636c31bcd9a>", line 3, in sum
+    b = a + 6
+TypeError: can only concatenate str (not "int") to str
+2019-11-13 15:39:06,569  ERROR Got exception on main handler
+Traceback (most recent call last):
+  File "<ipython-input-35-067d98536971>", line 3, in sum
+    b = a + 6
+TypeError: can only concatenate str (not "int") to str
+2019-11-13 15:42:36,663  ERROR TypeError is occurred
+Traceback (most recent call last):
+  File "<ipython-input-10-387072467152>", line 3, in sum
+    b = a + 6
+TypeError: can only concatenate str (not "int") to str
+2019-11-13 15:43:37,039  ERROR TypeError is occurred
+Traceback (most recent call last):
+  File "<ipython-input-13-387072467152>", line 3, in sum
+    b = a + 6
+TypeError: can only concatenate str (not "int") to str
+2019-11-13 15:52:25,388  DEBUG diff parser start
+2019-11-13 15:52:25,389  DEBUG line_lengths old: 1; new: 1
+2019-11-13 15:52:25,389  DEBUG -> code[replace] old[1:1] new[1:1]
+2019-11-13 15:52:25,389  DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2019-11-13 15:52:25,390  DEBUG diff parser end
+2019-11-13 16:05:37,441  DEBUG diff parser start
+2019-11-13 16:05:37,442  DEBUG line_lengths old: 1; new: 1
+2019-11-13 16:05:37,442  DEBUG -> code[replace] old[1:1] new[1:1]
+2019-11-13 16:05:37,442  DEBUG parse_part from 1 to 1 (to 0 in part parser)
+2019-11-13 16:05:37,443  DEBUG diff parser end

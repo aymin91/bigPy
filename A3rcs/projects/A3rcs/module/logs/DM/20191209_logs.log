@@ -1,0 +1,271 @@
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:34:47 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "<ipython-input-57-960bfa153d48>", line 85, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-09 11:34:47 [INFO]
+message : BLOG_CODE=DM, Crawling Completed  [ number_of_user_id=5, number_of__all_posts=0, processing_time=0:0:0]
+
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:36:01 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "<ipython-input-64-960bfa153d48>", line 85, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-09 11:36:01 [INFO]
+message : BLOG_CODE=DM, Crawling Completed  [ number_of_user_id=5, number_of__all_posts=0, processing_time=0:0:0]
+
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 11:57:12 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "<ipython-input-68-ef3f3efe9d7c>", line 85, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-09 11:57:12 [INFO]
+message : BLOG_CODE=DM, Crawling Completed  [ number_of_user_id=5, number_of__all_posts=0, processing_time=0:0:0]
+
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, TypeErrorlist indices must be integers or slices, not str
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 40, in generate_dm_crawler
+    full_path = rep_dir.format(yyyy=dates[:4], blog_code=BLOG_CODE, yyyymmdd=dates, user_id=user_info['user_id'])
+TypeError: list indices must be integers or slices, not str
+time : 2019-12-09 12:02:18 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=DM, ValueErrorNo objects to concatenate
+Traceback (most recent call last):
+  File "<ipython-input-92-960bfa153d48>", line 85, in concat_post_date
+    result = pd.concat(dataframes, ignore_index=True)
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 255, in concat
+    sort=sort,
+  File "C:\Anaconda\lib\site-packages\pandas\core\reshape\concat.py", line 304, in __init__
+    raise ValueError("No objects to concatenate")
+ValueError: No objects to concatenate
+time : 2019-12-09 12:02:18 [INFO]
+message : BLOG_CODE=DM, Crawling Completed  [ number_of_user_id=5, number_of__all_posts=0, processing_time=0:0:0]
+
+time : 2019-12-09 12:03:55 [INFO]
+message : BLOG_CODE=DM, user_id=hbj122, number_of_posts=8, processing_time=0:0:2
+

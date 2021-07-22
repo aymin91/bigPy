@@ -1,0 +1,196 @@
+time : 2019-12-05 13:54:08 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : amalloc / number_of_posts : 208 / processing_time : 0시간 0분 32
+
+
+time : 2019-12-05 13:54:37 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : geekshot / number_of_posts : 185 / processing_time : 0시간 0분 29
+
+
+time : 2019-12-05 13:55:04 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : remotemind / number_of_posts : 137 / processing_time : 0시간 0분 26
+
+
+time : 2019-12-05 13:55:05 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : lowlander / number_of_posts : 6 / processing_time : 0시간 0분 1
+
+
+time : 2019-12-05 13:55:51 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : mbm0629 / number_of_posts : 280 / processing_time : 0시간 0분 46
+
+
+time : 2019-12-05 13:55:51 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 228
+message : ParserErrorError tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+
+Traceback (most recent call last):
+  File "/home/bigpie/a3rcs/stg_server/EG_Crawler_Generator.py", line 86, in concat_post_date
+    df = pd.read_csv(csv_file)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 463, in _read
+    data = parser.read(nrows)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1154, in read
+    ret = self._engine.read(nrows)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 2059, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 881, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 896, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 950, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 937, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 2132, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+time : 2019-12-05 13:55:51 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : number_of_user_id : 5 / number_of__all_posts : 0 / processing_time : 0시간 2분 16 
+
+
+time : 2019-12-05 14:05:30 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : amalloc / number_of_posts : 208 / processing_time : 0시간 0분 34
+
+
+time : 2019-12-05 14:05:59 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : geekshot / number_of_posts : 185 / processing_time : 0시간 0분 28
+
+
+time : 2019-12-05 14:06:25 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : remotemind / number_of_posts : 137 / processing_time : 0시간 0분 25
+
+
+time : 2019-12-05 14:06:26 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : lowlander / number_of_posts : 6 / processing_time : 0시간 0분 1
+
+
+time : 2019-12-05 14:07:13 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : mbm0629 / number_of_posts : 280 / processing_time : 0시간 0분 46
+
+
+time : 2019-12-05 14:07:13 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 228
+message : ParserErrorError tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+
+Traceback (most recent call last):
+  File "/home/bigpie/a3rcs/stg_server/EG_Crawler_Generator.py", line 86, in concat_post_date
+    df = pd.read_csv(csv_file)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 685, in parser_f
+    return _read(filepath_or_buffer, kwds)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 463, in _read
+    data = parser.read(nrows)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 1154, in read
+    ret = self._engine.read(nrows)
+  File "/home/bigpie/anaconda3/lib/python3.7/site-packages/pandas/io/parsers.py", line 2059, in read
+    data = self._reader.read(nrows)
+  File "pandas/_libs/parsers.pyx", line 881, in pandas._libs.parsers.TextReader.read
+  File "pandas/_libs/parsers.pyx", line 896, in pandas._libs.parsers.TextReader._read_low_memory
+  File "pandas/_libs/parsers.pyx", line 950, in pandas._libs.parsers.TextReader._read_rows
+  File "pandas/_libs/parsers.pyx", line 937, in pandas._libs.parsers.TextReader._tokenize_rows
+  File "pandas/_libs/parsers.pyx", line 2132, in pandas._libs.parsers.raise_parser_error
+pandas.errors.ParserError: Error tokenizing data. C error: Buffer overflow caught - possible malformed input file.
+
+time : 2019-12-05 14:07:13 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : number_of_user_id : 5 / number_of__all_posts : 0 / processing_time : 0시간 2분 16 
+
+
+time : 2019-12-05 14:37:11 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : amalloc / number_of_posts : 208 / processing_time : 0시간 0분 34
+
+
+time : 2019-12-05 14:37:39 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : geekshot / number_of_posts : 185 / processing_time : 0시간 0분 28
+
+
+time : 2019-12-05 14:38:04 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : remotemind / number_of_posts : 137 / processing_time : 0시간 0분 25
+
+
+time : 2019-12-05 14:38:06 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : lowlander / number_of_posts : 6 / processing_time : 0시간 0분 1
+
+
+time : 2019-12-05 14:38:50 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : user_id : mbm0629 / number_of_posts : 280 / processing_time : 0시간 0분 44
+
+
+time : 2019-12-05 14:38:50 [INFO]
+filename : util.py
+module_name : util
+func_name : info_msg
+line : 196
+message : number_of_user_id : 5 / number_of__all_posts : 819 / processing_time : 0시간 2분 13 
+
+

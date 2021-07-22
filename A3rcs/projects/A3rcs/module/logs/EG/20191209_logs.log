@@ -1,0 +1,110 @@
+time : 2019-12-09 10:42:49 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=EG, ValueErrorcannot convert float NaN to integer
+Traceback (most recent call last):
+  File "<ipython-input-11-ab99a20aaa85>", line 48, in generate_eg_crawler
+    all_content_info = eg_crawler.gather_all_content(board_url_list, start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 311, in gather_all_content
+    all_content_info.append(get_content_info(board_url_list[i], content_info_tag, start_date, end_date))
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 208, in get_content_info
+    is_valid_date = True if util.check_is_valid_date(start_date, end_date, upload_date) else False
+  File "C:\projects\A3rcs\module\s1_collect\comm\util.py", line 121, in check_is_valid_date
+    start_rgx = int(upload_date) - int(start_date)
+ValueError: cannot convert float NaN to integer
+time : 2019-12-09 10:51:31 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=EG, ValueErrorcannot convert float NaN to integer
+Traceback (most recent call last):
+  File "<ipython-input-19-3ff1cf26a9ba>", line 48, in generate_eg_crawler
+    all_content_info = eg_crawler.gather_all_content(board_url_list, start_date, end_date)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 311, in gather_all_content
+    all_content_info.append(get_content_info(board_url_list[i], content_info_tag, start_date, end_date))
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 208, in get_content_info
+    is_valid_date = True if util.check_is_valid_date(start_date, end_date, upload_date) else False
+  File "C:\projects\A3rcs\module\s1_collect\comm\util.py", line 121, in check_is_valid_date
+    start_rgx = int(upload_date) - int(start_date)
+ValueError: cannot convert float NaN to integer
+time : 2019-12-09 11:01:17 [INFO]
+message : BLOG_CODE=EG, user_id=BlueDiscus, number_of_posts=2027, processing_time=0:8:33
+
+time : 2019-12-09 11:03:51 [INFO]
+message : BLOG_CODE=EG, user_id=CINEKOON91, number_of_posts=724, processing_time=0:2:34
+
+time : 2019-12-09 11:12:48 [INFO]
+message : BLOG_CODE=EG, user_id=CV63, number_of_posts=2976, processing_time=0:8:56
+
+time : 2019-12-09 11:13:49 [ERROR]
+filename : util.py
+module_name : util
+func_name : error_msg
+line : 245
+message : BLOG_CODE=EG, ConnectionErrorHTTPConnectionPool(host='hrdsk.egloos.com', port=80): Max retries exceeded with url: //archives/2016/10/list/3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD8D52F780>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 159, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "C:\Anaconda\lib\site-packages\urllib3\util\connection.py", line 80, in create_connection
+    raise err
+  File "C:\Anaconda\lib\site-packages\urllib3\util\connection.py", line 70, in create_connection
+    sock.connect(sa)
+TimeoutError: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "C:\Anaconda\lib\http\client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "C:\Anaconda\lib\http\client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "C:\Anaconda\lib\http\client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "C:\Anaconda\lib\http\client.py", line 1016, in _send_output
+    self.send(msg)
+  File "C:\Anaconda\lib\http\client.py", line 956, in send
+    self.connect()
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 181, in connect
+    conn = self._new_conn()
+  File "C:\Anaconda\lib\site-packages\urllib3\connection.py", line 168, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x000001DD8D52F780>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Anaconda\lib\site-packages\requests\adapters.py", line 449, in send
+    timeout=timeout
+  File "C:\Anaconda\lib\site-packages\urllib3\connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "C:\Anaconda\lib\site-packages\urllib3\util\retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='hrdsk.egloos.com', port=80): Max retries exceeded with url: //archives/2016/10/list/3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD8D52F780>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "<ipython-input-24-39f4a53ce0ad>", line 46, in generate_eg_crawler
+    board_url_list       = eg_crawler.get_all_board_url(blog_url, board_page_url_list)
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 170, in get_all_board_url
+    board_url_list += get_board_url(blog_url, find_board_url_tag(board_page_url_list[i]))
+  File "C:\projects\A3rcs\module\s1_collect\blog\bl_eg\eg_blog_post_crawler.py", line 137, in find_board_url_tag
+    req = requests.get(board_page_url)
+  File "C:\Anaconda\lib\site-packages\requests\api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\sessions.py", line 533, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\sessions.py", line 646, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Anaconda\lib\site-packages\requests\adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='hrdsk.egloos.com', port=80): Max retries exceeded with url: //archives/2016/10/list/3 (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001DD8D52F780>: Failed to establish a new connection: [WinError 10060] 연결된 구성원으로부터 응답이 없어 연결하지 못했거나, 호스트로부터 응답이 없어 연결이 끊어졌습니다'))

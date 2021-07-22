@@ -1,0 +1,7 @@
+{
+	"user_id_dir"  : "repository/user_id/",
+	"post_dir"     : "repository/blog_post/",
+	"log_dir"      : "module/logs/{blog_code}/{yyyymmdd}_logs.log",
+	"pblog_id_fmt" : "repository/blog_post/{yyyy}/{blog_code}/by_id/{yyyymmdd}/s1_{user_id}.csv",  
+	"pblog_dt_fmt" : "repository/blog_post/{yyyy}/{blog_code}/blog/s1_{yyyymmdd}.csv"
+}

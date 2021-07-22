@@ -1,0 +1,35 @@
+[{
+    "blog_name" : "NAVER",
+    "blog_code": "NV",
+    "post_base_url": "https://blog.naver.com/",
+    "user_base_url": "https://section.blog.naver.com/BlogHome.nhn?directoryNo=0&currentPage=1&groupId=0",
+    "blog_vaild": true
+},
+{
+    "blog_name" : "DAUM",
+    "blog_code": "DM",
+    "post_base_url": "http://blog.daum.net/",
+    "user_base_url": "http://blog.daum.net/",
+    "blog_vaild": true
+},
+{
+    "blog_name" : "EGLOOS",
+    "blog_code": "EG",
+    "post_base_url": "http://www.egloos.com/",
+    "user_base_url": "http://valley.egloos.com/index.php?page=1",
+    "blog_vaild": true
+},
+{
+    "blog_name" : "TISTORY",
+    "blog_code": "TI",
+    "post_base_url": "https://www.tistory.com/",
+    "user_base_url": "https://www.tistory.com/category/",
+    "blog_vaild": true
+},
+{
+    "blog_name" : "BRUNCH",
+    "blog_code": "BR",
+    "post_base_url": "https://brunch.co.kr/",
+    "user_base_url": "https://brunch.co.kr/now",
+    "blog_vaild": true
+}]
